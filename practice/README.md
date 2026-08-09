@@ -5,13 +5,10 @@ This script demonstrates basic data exploration and filtering operations using `
 ## Code
 
 ```python
-import numpy as np
 import pandas as pd
 
 df = pd.read_csv("employees.csv")
 ```
-
-- `import numpy as np` — imports NumPy, a numerical computing library (used here as a common pandas dependency, though not directly called in this snippet).
 - `import pandas as pd` — imports pandas, the main library used for reading and manipulating tabular data.
 - `df = pd.read_csv("employees.csv")` — reads the CSV file `employees.csv` into a pandas DataFrame called `df`.
 ---
